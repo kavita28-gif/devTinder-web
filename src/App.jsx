@@ -31,7 +31,7 @@ function App() {
               <Route path="/chat/:targetUserId" element={<Chat />} />
               <Route path="/privacy-policy" element={<PrivacyPolicy />} />
               <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
-              <Route path="/cancellation-refunds" element={<CancellationRefund />} />
+              <Route path="/cancellation-and-refunds" element={<CancellationRefund />} />
               <Route path="/shipping" element={<ShippingPolicy />} />
               <Route path="/contact-us" element={<ContactUs />} />
             </Route>
