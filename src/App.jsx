@@ -9,6 +9,11 @@ import Connections from "./components/Connections";
 import Requests from "./components/Requests";
 import Premium from "./components/Premium";
 import Chat from "./components/Chat";
+import PrivacyPolicy from "./components/PrivacyPolicy";
+import TermsAndConditions from "./components/TermsAndConditions";
+import CancellationRefund from "./components/CancellationRefund";
+import ShippingPolicy from "./components/ShippingPolicy";
+import ContactUs from "./components/ContactUs";
 
 function App() {
   return (
@@ -24,6 +29,11 @@ function App() {
               <Route path="/requests" element={<Requests />} />
               <Route path="/premium" element={<Premium />} />
               <Route path="/chat/:targetUserId" element={<Chat />} />
+              <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+              <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
+              <Route path="/cancellation-refund" element={<CancellationRefund />} />
+              <Route path="/shipping-policy" element={<ShippingPolicy />} />
+              <Route path="/contact-us" element={<ContactUs />} />
             </Route>
           </Routes>
         </BrowserRouter>

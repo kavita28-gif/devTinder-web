@@ -5,6 +5,7 @@ import { addFeed } from "../utils/feedSlice";
 import { useEffect } from "react";
 import UserCard from "./UserCard";
 
+
 const Feed = () => {
   const feed = useSelector((store) => store.feed);
   const dispatch = useDispatch();
@@ -17,7 +18,7 @@ const Feed = () => {
       });
       dispatch(addFeed(res?.data?.data));
     } catch (err) {
-      //TODO: handle error
+      console.error(err);
     }
   };
 
