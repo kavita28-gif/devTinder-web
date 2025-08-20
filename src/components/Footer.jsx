@@ -18,9 +18,9 @@ const Footer = () => {
         <p className="fill-current text-[#a097a0]" >Copyright © {new Date().getFullYear()} - All right reserved</p>
       </aside>
        <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end text-sm">
-        <Link to="/cancellation-refund" className="text-[#a097a0]" >Cancellation & Refunds</Link>
+        <Link to="/cancellation-refunds" className="text-[#a097a0]" >Cancellation & Refunds</Link>
         <Link to="/terms-and-conditions" className="text-[#a097a0]" >Terms & Conditions</Link>
-        <Link to="/shipping-policy" className="text-[#a097a0]" >Shipping</Link>
+        <Link to="/shipping" className="text-[#a097a0]" >Shipping</Link>
         <Link to="/privacy-policy" className="text-[#a097a0]" >Privacy</Link>
         <Link to="/contact-us" className="text-[#a097a0]" >Contact Us</Link>
       </nav>
